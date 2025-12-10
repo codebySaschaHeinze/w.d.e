@@ -1,0 +1,57 @@
+# -------------------------
+# PYTHON BUILD ARTEFACTS
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy / Pyright
+.mypy_cache/
+.pytype/
+
+# Pytest
+.cache/
+
+# -------------------------
+# PROJECT SPECIFIC
+# -------------------------
+# Editor / IDE settings
+.vscode/
+.idea/
+
+# Optional: logs from your adventure engine later
+logs/
+*.log
+
+# Optional: cached generated story files
+generated/
